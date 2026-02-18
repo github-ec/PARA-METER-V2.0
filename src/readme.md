@@ -43,11 +43,9 @@ Returns true if category katdID and index entry allow to successfully retrieve a
 After this function has been called successfully the word can be retrieved by calling .word(), the category 
 chosen by  .katID() and the word index by calling .wordIndex().
 
-WordStorage wordStore;
   
 ```
 
-#include "GermanLCD.h"
 #include "WordStorage.h";
 
 WordStorage wordStore;
